@@ -1,0 +1,14 @@
+{
+  "name": "mini-agents",
+  "module": "index.ts",
+  "type": "module",
+  "exports": {
+    "./git-editor": "./git-editor/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
