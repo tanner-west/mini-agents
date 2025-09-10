@@ -9,7 +9,7 @@ I've built out the projects in this repo as an exercise in learning to think alo
 Central to these projects is OpenAI's concept of [tool-calling](https://platform.openai.com/docs/guides/function-calling). Tool calling gives the model information about functions that are available in your software and their parameters, then the model can generate arguments to those functions in a predictable format, so your program can call the function the model chooses to complete the task you've asked it to.
 
 ## Magic Buckets
-I've dubbed these projects "Magic Buckets" because I envision a setup where you drop various screenshots or documents in a cloud storage place (like an AWS S3 bucket) and the AI periodically reads the contents and takes the correct action for each item.
+I've dubbed the first two workflows "Magic Buckets" because I envision a setup where you drop various screenshots or documents in a cloud storage place (like an AWS S3 bucket) and the AI periodically reads the contents and takes the correct action for each item.
 
 ### Notion Editor: Editing a Notion database from a screenshot
 
