@@ -52,7 +52,7 @@ I envision a system where the user "jots down" thoughts as the occur over the co
 ## Running the Demo Server
 
 1. Set up the environmental variables. Copy or rename `.env.example` to `.env` to get started. 
-You'll need an Open AI API key for all projects. Notion-editor requires a notion API key and Database ID, and git-editor requires all four github variables
+You'll need an Open AI API key for all projects. Notion-editor requires a notion API key and Database ID, and git-editor requires all four github variables. Be sure your GitHub token is scoped to the repo and file you're trying to edit.
 
 2. `bun install`
 3. `bun run start`
@@ -62,5 +62,5 @@ You'll need an Open AI API key for all projects. Notion-editor requires a notion
 > `magic-bucket` and `git-editor-text-prompt` open websocket connections to stream the workflow's progress. If you restart the server while a websocket connection is open, the workflow will restart (just trying to save you some OpenAI tokens 😉).
 
 The demo server will provide these paths for serving UIs:
-- `http://localhost:3000/magic-bucket`
+- `http://localhost:3000/magic-bucket` Feel free to use the screens in `/example-screenshots` to experiment with this
 - `http://localhost:3000/self-writing-journal` (this one may take a while to load, since it makes the call the OpenAI to generate the HTML doc itself)
