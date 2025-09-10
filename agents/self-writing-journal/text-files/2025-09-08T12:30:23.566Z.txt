@@ -1,0 +1,2 @@
+idea: write a blog post about parsing epubs
+todo: buy orzo for dinner

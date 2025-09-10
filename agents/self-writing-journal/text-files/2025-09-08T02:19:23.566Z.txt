@@ -1,0 +1,3 @@
+todo: send thank you notes for birthday gifts
+idea: add websocket support to project
+todo: feed the cats

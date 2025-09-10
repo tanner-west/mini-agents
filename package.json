@@ -2,6 +2,9 @@
   "name": "mini-agents",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "exports": {
     "./git-editor": "./git-editor/index.ts"
   },
@@ -10,5 +13,9 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@notionhq/client": "^5.0.0",
+    "openai": "^5.19.1"
   }
 }
