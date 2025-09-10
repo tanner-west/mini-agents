@@ -19,7 +19,7 @@ The prompt central to Notion Editor is:
 
 We make a function available that calls the Notion API to update a database with the information that GPT provides.
 
-### Git Editor
+### Git Editor: Editing the contents of a GitHub repo from a screenshot
 
 The prompt that drives Git Editor is:
 
