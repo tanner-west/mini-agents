@@ -159,3 +159,6 @@ Bun.serve({
     close() { },
   },
 });
+
+console.log("http://localhost:3000/magic-bucket")
+console.log("http://localhost:3000/self-writing-journal")

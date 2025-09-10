@@ -32,7 +32,7 @@ export const handler = async () => {
       content: [
         {
           type: "input_text",
-          text: `read the provided text strings and based on the contents, generate a full html document with bulleted lists and headings. if the item is prefixed with "todo", put it under a "To Do" heading; if it is prefixed with "idea", put it under an "Ideas" heading, etc. Remove the prefix. If there is no prefix, put it under a " Miscellaneous Note" heading. The H1 of the document should be todays date, which is ${Date()}, formatted as MN/DD/YYYY`,
+          text: `read the provided text strings and based on the contents, generate a full html document with bulleted lists and headings. if the item is prefixed with "todo", put it under a "To Do" heading; if it is prefixed with "idea", put it under an "Ideas" heading, etc. Remove the prefix. If there is no prefix, put it under a " Miscellaneous Note" heading. The H1 of the document should be todays date, which is ${Date()}, formatted as MM/DD/YYYY`,
         },
         ...fileContents.map((text) => ({
           type: "input_text" as const,
