@@ -42,7 +42,7 @@ This is very powerful, considering that git repos can be used to build virtually
 
 The LLM prompt central to this project is:
 
-> read the provided text strings and based on the contents, generate a full html document with bulleted lists and headings. if the item is prefixed with "todo", put it under a "To Do" heading; if it is prefixed with "idea", put it under an "Ideas" heading, etc. Remove the prefix. If there is no prefix, put it under a " Miscellaneous Note" heading. The H1 of the document should be todays date, which is ${Date()}, formatted as MN/DD/YYYY
+> read the provided text strings and based on the contents, generate a full html document with bulleted lists and headings. if the item is prefixed with "todo", put it under a "To Do" heading; if it is prefixed with "idea", put it under an "Ideas" heading, etc. Remove the prefix. If there is no prefix, put it under a " Miscellaneous Note" heading. The H1 of the document should be todays date, which is ${Date()}, formatted as MM/DD/YYYY
 
 The program can read a collection of text files, which could be various notes, ideas, or to-do items collected over the course of the day. The AI will organize those various notes in one succint document.
 
